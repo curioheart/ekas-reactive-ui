@@ -1,0 +1,231 @@
+/* MESSAGES */
+.gallery-item .g-small span {
+  display: block;
+}
+
+.biicon11 {
+  display: none !important;
+}
+
+body[dir*="LTR"] {
+  background: rgb(255, 255, 255) !important;
+}
+
+p[style*="margin:0.75em 0.5em 0 0.5em;"] {
+  margin: 0.75em 0.5em 0;
+}
+
+p[style*="clear:left;"] {
+  padding-bottom: 2em !important;
+}
+
+.scrollthumb,
+.thumb > img,
+img[style*="max-height:300px"] {
+  border-bottom: 2px rgba(0, 0, 0, .3) solid;
+  border-radius: 0.25em !important;
+}
+
+a.scrollthumb {
+  display: block;
+  margin-top: 20px;
+  background-color: rgb(249, 249, 249);
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+}
+
+input[type="button"] {
+  border: 0;
+  border-radius: 0.25em;
+  border-bottom: 1px rgba(0, 0, 0, .3) solid;
+}
+
+#content > .section,
+#ss-scroll > div,
+.region {
+  margin: 0.5em;
+  border-radius: 0.25em !important;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1em;
+}
+
+.region {
+  width: 200px;
+  margin-left: 0;
+  font-family: Verdana, Arial !important;
+}
+
+#content > .section {
+  margin-right: 0;
+}
+
+.block h2,
+.block h2.title {
+  font-family: Verdana, Arial;
+}
+
+#footer,
+#g-footer {
+  margin: 0 auto;
+  border-radius: 0.25em !important;
+  margin-bottom: 1em;
+  width: 30%;
+  margin-top: 0.5em;
+}
+
+#content > .section {
+  margin-left: calc(200px + 3em);
+  padding-left: 1em !important;
+  padding-top: 1em !important;
+}
+
+#menucontainer ul.menug4 {
+  width: 400px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: normal !important;
+}
+
+body[class*="page"] #menucontainer,
+body[class*="page"] #menucontainercontainer {
+  width: 500px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: normal !important;
+  background: none;
+}
+
+body[class*="page"] #menucontainer {
+  top: 10px;
+}
+
+body[class*="page"] #menucontainer a {
+  font-weight: normal;
+  font-size: 12.5px;
+  padding: 0 1em 0 0;
+}
+
+body[class*="page"] #menucontainer li.expandedg4.first {
+  padding-left: 1em;
+  z-index: 99;
+  background-color: none !important;
+  display: none;
+  /* some weird bugs going on so just go to the gallery from another page please :) */
+}
+
+body[class*="page"] #menucontainer li.expandedg4.first .leafg4 {
+  display: none;
+}
+
+body[class*="page"] #menucontainer ul.menug4 {
+  padding-left: 2em;
+}
+
+.region > .section {
+  padding-right: 0;
+  padding-left: 0.5em;
+}
+
+.region {
+  padding-top: 1em !important;
+}
+
+div[style*="width:79%"] {
+  margin-left: 1em;
+  width: calc(79.9% - 1em) !important;
+}
+/*div[style*="width: 20%"] {
+    width: 16% !important;
+   margin-right: 0 calc(10% - 2em);
+  }*/
+.detail-item {
+  border: 0 rgba(0, 0, 0, 0);
+  margin-bottom: 1em;
+}
+
+.comment {
+  border-top: none !important;
+  border: none;
+  padding: 0.5em !important;
+  margin-top: 0.5em !important;
+  background: white;
+}
+
+.detail-item .comment {
+  margin-left: 0 !important;
+  /* lol we can do this because they use inline styles for the normal thing */
+}
+
+.comment-header span {
+  color: #333;
+}
+
+#ss-viewport .g-box {
+  box-shadow: none !important;
+}
+
+#ss-viewport {}
+
+.forum-topic {
+  border-bottom: 0;
+  margin-bottom: 1em;
+}
+
+#userpagetabs > ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#userpagetabs {
+  margin: 0 0 -.5em;
+  padding-right: 0;
+}
+
+.g-corner-all {
+  border-radius: 0.25em;
+}
+
+.item-title {
+  /* this fixes the text. it's ugly and kind of awkward. sorry */
+  margin: 0 auto;
+  max-width: 160px;
+  width: 180px;
+  height: 21px;
+  max-height: 42px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#uph {
+  padding: 0;
+  margin: 0 auto;
+  background: white;
+  margin-top: 0.5em;
+}
+
+#latest > .g-box-contents {
+  max-height: calc(100px + .5em);
+}
+
+#latest .thumb {
+  margin-bottom: 1em !important;
+}
+
+.preview > img {
+  border-radius: 0.25em !important;
+}
+
+#left-column {
+  margin-top: 1em;
+  width: 40% !important;
+  margin-left: calc(10% - .5em);
+  margin-right: 0.5em;
+}
+
+iframe {
+  border: 0;
+  border-radius: 0 0 0.25em 0.25em !important;
+}

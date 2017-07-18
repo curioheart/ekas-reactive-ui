@@ -1,0 +1,21 @@
+/* Gallery Items */
+
+// specifically targets text items without a preview image
+a.thumb.scrollthumb {
+  border-radius: 4px;
+}
+
+.scrollthumb,
+.thumb > img,
+img[style*="max-height:300px"] {
+  border-bottom: 2px rgba(0, 0, 0, .3) solid;
+  border-radius: 0.25em !important;
+}
+
+a.scrollthumb {
+  display: block;
+  margin-top: 20px;
+  background-color: rgb(249, 249, 249);
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+}

@@ -1,0 +1,27 @@
+#content > .section {
+  margin-left: calc(200px + 3em);
+  padding-left: 1em !important;
+  padding-top: 1em !important;
+}
+
+#content > .section {
+  margin-right: 0;
+}
+
+#content > .section,
+#ss-scroll > div,
+.region {
+  margin: 0.5em;
+  border-radius: 0.25em !important;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1em;
+}
+
+.region {
+  width: 200px;
+  margin-left: 0;
+  font-family: Verdana, Arial !important;
+}

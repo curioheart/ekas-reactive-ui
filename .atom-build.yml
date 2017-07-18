@@ -1,0 +1,20 @@
+cmd: node_modules/.bin/node-sass
+name: Eka's Reactive UI
+args:
+  # - --output-style compact
+  # - --output-style compressed
+  - --output-style expanded
+  # - --output-style nested
+  - ./scss/ekas-reactive-ui.scss
+  - ekas-reactive-ui.css
+sh: true
+targets:
+  Compile:
+    cmd: node_modules/.bin/gulp
+    args:
+      - scss
+  Watch:
+    cmd: node_modules/.bin/gulp
+    args:
+      - watch
+    sh: true

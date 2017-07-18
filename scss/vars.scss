@@ -1,0 +1,22 @@
+// Custom Fonts
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+// Fonts & Text
+$header-font-family: "Arima Madurai", cursive !default;
+$header-font-size: 0.8em !default;
+$title-font-family: "Nova Flat", cursive !default;
+$font-family: Oxygen, sans-serif !default;
+$font-size: 1em !default;
+// This is the font size that all `em` references will be based on.
+$default-font-size: 14px;
+
+// Images
+$site-header-img: 'http://i.imgur.com/SnES0bQ.png' !default;
+$blacklist-overlay-img: 'http://i.imgur.com/LtQZZUg.png' !default;
+
+// Borders
+$border-radius: .25em !default;
+$border-width: 1px !default;
+// $border-color: !default;

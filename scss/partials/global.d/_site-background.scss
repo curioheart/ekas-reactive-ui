@@ -1,0 +1,31 @@
+html[lang] {
+  /*by specifying the lang attribute we exclude site-hosted stories! yay no more bugs with this */
+  /*this has a background?*/
+  background: #f4ebf5;
+  /* #C0C0FF; OLD SKOOL */
+}
+
+body {
+  margin: 0 !important;
+  width: calc(100% - 16px);
+  // min-width: 990px;
+  width: 100%;
+  /* i think its a reasonable enough minimum, who even owns 1024x768 displays anymore!?*/
+  margin-left: 8px;
+  box-shadow: none;
+  font-family: $font-family !important;
+  font-size: $default-font-size !important;
+  /* Fix font variation */
+  background: $quaternary-color;
+  /*background: url("http://i.imgur.com/o0H4KPl.png");*/
+  /*Uncomment to fix background*/
+
+  &#phpbb {
+    margin: 0;
+    padding-top: 0;
+  }
+}
+
+body[dir*="LTR"] {
+  background: rgb(255, 255, 255) !important;
+}

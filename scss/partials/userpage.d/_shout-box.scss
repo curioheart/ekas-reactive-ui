@@ -1,0 +1,14 @@
+/* Shoutbox styling */
+
+.shout-bubble-arrow-border, .shout-bubble-arrow {
+  display: none;
+}
+
+.new-shout, .shout-reply {
+  background: none;
+  border: none;
+}
+
+.odd .new-shout {
+  margin: 0px 0px 0px 120px;
+}

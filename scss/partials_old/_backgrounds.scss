@@ -1,0 +1,44 @@
+/* BACKGROUNDS */
+#accentbar,
+#menucontainer,
+#userdata,
+.g-box-header {
+  background: #7F50CF;
+  /* Purple Accent */
+}
+
+#globalheader {
+  background: #7F50CF !important;
+  /* Needs to not be white -custom page css dosen't affect this so its okay*/
+  overflow: visible !important;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.09);
+}
+
+#g-footer,
+#sized-note,
+.g-box,
+.gallery-item img,
+.preview img,
+.scrollthumb {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+}
+
+#folder-listing {
+  width: 100% !important;
+}
+
+.comment-header {
+  background: white !important;
+}
+
+#g-footer,
+#globalheader,
+#sized-note,
+#userpagetabs li,
+.g-box,
+.ui-state-default,
+div[style="overflow:auto; position: relative; padding: 1em;"] {
+  /* The great window bleacher */
+  background: white;
+  /* White Backdrop */
+}

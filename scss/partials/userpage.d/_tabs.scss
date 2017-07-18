@@ -1,0 +1,39 @@
+/* Tabs on the user page */
+#userpagetabs > ul > .ui-state-default {
+  border-radius: 0.25em 0.25em 0 0 !important;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  /* lov */
+}
+
+#userpagetabs ul {
+  padding: 0;
+  width: 90% !important;
+}
+
+#userpagetabs ul li {
+  top: 2px;
+}
+
+#userpagetabs ul li a {}
+
+#userpagetabs li:hover {
+  background: rgb(240, 240, 240);
+}
+
+#userpagetabs a {
+  color: #7F50CF;
+}
+
+#userpagetabs a:hover {
+  color: #470047;
+}
+
+#userpagetabs > ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#userpagetabs {
+  margin: 0 0 -.5em;
+  padding-right: 0;
+}

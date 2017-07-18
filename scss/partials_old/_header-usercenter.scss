@@ -1,0 +1,144 @@
+/* HEADER: Usercenter */
+#usercenter {
+  margin-left: 0;
+  float: left;
+}
+
+#userdata {
+  background: none;
+  font-size: 12.5px !important;
+  font-weight: normal !important;
+  box-shadow: none;
+  /* blend it in with the ui bar */
+  margin: 0;
+  padding: 5px 0 0 8px;
+}
+
+#userdata p {
+  float: left;
+}
+
+#userdata > p[style="font-weight:bold; color: #FAFAFA;"] {
+  margin-right: 1em;
+}
+
+#usercenter img {
+  display: none;
+}
+
+#menucontainercontainer {
+  width: 240px;
+}
+
+#menucontainer li ul li,
+.dropmenudiv a {
+  background-color: white;
+}
+
+.chromestyle ul li a {
+  padding-bottom: 2px;
+}
+
+#menucontainer li ul li a,
+.dropmenudiv a,
+.headerbar .dropmenudiv a {
+  color: #7F50CF !important;
+  font-weight: normal;
+}
+
+#menucontainer li ul li a:hover,
+.dropmenudiv a:hover {
+  background: rgb(240, 240, 240);
+}
+
+#chromemenu ul li a:hover,
+#menucontainer .expanded > a:hover,
+body[class*="page"] #menucontainer .expandedg4 > a:hover {
+  background: #7F50CF;
+}
+
+#chromemenu .expanded > a,
+#menucontainer .expanded > a,
+body[class*="page"] #menucontainer .expandedg4 > a {
+  background: #7F50CF !important;
+}
+
+#menucontainer li ul,
+.dropmenudiv {
+  background-color: white !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.11) !important;
+  border: 1px outset rgba(0, 0, 0, 0.09);
+  border-top: 1px solid #7F50CF !important;
+  border-radius: 0 0 0.25em 0.25em;
+  overflow: hidden;
+}
+
+.dropmenudiv {}
+
+#accentbar {
+  float: left;
+  height: 0 !important;
+}
+
+p > a[href="/g4/messagepage.php"]:before {
+  content: " | ";
+}
+
+p > a[href="/g4/messagepage.php"]:after {
+  content: "";
+}
+
+#ss-scroll .g-box {
+  border: none;
+  box-shadow: none;
+}
+
+#globalsearch {
+  height: 25px;
+  max-height: 25px;
+  padding: 0;
+  margin: 0;
+  float: right;
+  border-radius: 0 0 0.25em 0;
+}
+
+#globalsearch input {
+  margin: 0;
+  padding: 0 0 0 1em;
+  width: 180px !important;
+  color: white !important;
+}
+
+#svcinfo {
+  /* still ugly right now will fix later */
+  right: 220px;
+  margin-top: 0;
+  border-radius: 0 0 0.25em 0.25em;
+  border: 0;
+  background: white;
+  color: white;
+  height: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 0;
+  padding-bottom: 4px;
+  background-color: rgb(249, 249, 249);
+  z-index: 100;
+}
+
+.sp-scrollpane a {
+  color: #7F50CF !important;
+}
+
+#globalsearch {
+  right: 0;
+}
+
+#search-submit {
+  display: none;
+}
+
+#form-header,
+#form-header-spacer {
+  /* Remove these because I've never used them and am too lazy to fix how I did globalheader */
+  display: none;
+}

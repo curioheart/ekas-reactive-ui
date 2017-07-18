@@ -1,0 +1,23 @@
+/* USERPAGE */
+#right-column {
+  float: right !important;
+}
+
+#left-column > .g-box,
+#right-column > .g-box {
+  margin: 1em 0 !important;
+  width: 100% !important;
+}
+
+#left-column {
+  margin: 0 !important;
+  width: 49% !important;
+  min-width: 49%;
+}
+
+#left-column {
+  margin-top: 1em;
+  width: 40% !important;
+  margin-left: calc(10% - .5em);
+  margin-right: 0.5em;
+}

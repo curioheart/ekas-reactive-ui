@@ -1,0 +1,28 @@
+#item-itself {
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+}
+
+.gallery-item .g-small span {
+  display: block;
+}
+
+.item-title {
+  /* this fixes the text. it's ugly and kind of awkward. sorry */
+  margin: 0 auto;
+  max-width: 160px;
+  width: 180px;
+  height: 21px;
+  max-height: 42px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.detail-item {
+  border: 0 rgba(0, 0, 0, 0);
+  margin-bottom: 1em;
+}
+
+#gallery-items {
+  margin-top: 2em;
+}

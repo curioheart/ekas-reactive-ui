@@ -1,0 +1,249 @@
+/* FORUM ELEMENTS */
+#page-header {
+  background: white;
+  border-radius: 0.2em;
+}
+
+#chromemenu {
+  width: 100%;
+}
+
+#chromemenu ul {
+  text-align: right;
+  padding: 0;
+}
+
+#phpbb {
+  font-size: smaller;
+  /* Not the best idea imo, I'll just tweak individually as needed */
+  color: #333;
+}
+
+#phpbb a {
+  color: #7F50CF;
+}
+
+.content {
+  font-family: Verdana, Arial;
+  font-size: 1em;
+}
+
+.headerbar {}
+
+#wrap {
+  background: #f4ebf5;
+}
+
+.forabg,
+.forumbg {
+  padding: 0;
+}
+
+#front-page,
+#page-header,
+.forabg,
+.forumbg,
+.panel,
+.rules,
+div.post {
+  background: white;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.bg1,
+.bg2 {
+  background: white;
+}
+
+li.row {
+  border-bottom-color: lightgray;
+}
+
+.corners-bottom span,
+.corners-top span,
+span.corners-bottom,
+span.corners-bottom span,
+span.corners-top,
+span.corners-top span {
+  height: 0;
+  background: none;
+}
+
+span.corners-top {
+  background: grey;
+}
+
+ul.forums {
+  background: none;
+}
+
+.postbody .content,
+.postbody h3,
+.postbody h3.first {
+  font-size: 1em;
+}
+
+.post {
+  margin-bottom: 1em;
+  border: none;
+}
+
+.back2top {
+  height: 2em;
+}
+
+.headerbar,
+li.header {
+  background: #7F50CF;
+  padding: 0.25em 0.5em;
+  color: white;
+  font-weight: bold;
+}
+
+#page-body > .post {
+  padding: 0.5em 1em 1em;
+}
+
+li.header dd,
+li.header dt {
+  text-transform: capitalize;
+}
+
+.postprofile a:link,
+.postprofile a:visited,
+.postprofile dt.author a,
+a.forumtitle,
+a.topictitle,
+ul.navlinks {
+  font-weight: normal;
+  font-family: Verdana, Arial;
+}
+
+.navbar {
+  background: white;
+}
+
+.back2top .top {
+  display: relative;
+  margin: 3.5px;
+}
+
+.header dl.icon dt a {
+  color: white !important;
+  font-size: normal;
+  font-family: Verdana, Arial;
+}
+
+.headerbar a {
+  font-weight: normal;
+  color: white !important;
+}
+
+#headertop {
+  background: url("http://i.imgur.com/SnES0bQ.png") no-repeat;
+}
+
+input.search {
+  padding-left: 2px;
+  background: white;
+}
+
+#forum-search input,
+#search-box input,
+#uph-bigbuttons a,
+.display-options input,
+.display-options select,
+.search,
+.search-box input,
+input.button1,
+input.button2,
+select {
+  border-radius: 0.25em;
+  border: none;
+  border-bottom: 1px rgba(0, 0, 0, .3) solid;
+  font-size: 0.9em !important;
+  font-weight: normal !important;
+}
+
+.search {}
+
+.postbody h3,
+.postbody h3.first {
+  font-size: 1.4em;
+  font-weight: normal;
+  font-family: Verdana, Arial;
+}
+
+#uph-bigbuttons a,
+a.button1,
+a.button2,
+input.button1,
+input.button2,
+input.button3 {
+  background: rgb(222, 222, 210);
+  color: #333;
+}
+
+#search-box {
+  margin-top: 1em;
+  margin-right: 1.25em;
+}
+
+#headertop img {
+  opacity: 0;
+  /* yes this is the absolute most round-about way of doing it im just really lazy so yeah */
+}
+
+.topic-actions {
+  font-size: 0.9em;
+}
+
+li.row {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.pagination span a {
+  border-radius: 0.2em;
+}
+
+img[alt*="User avatar"] {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.rules .inner {
+  padding: 0.25em;
+}
+
+#tabs a span,
+#tabs ul li a {
+  background: white;
+  border-radius: 0.25em 0.25em 0 0;
+  top: 2px;
+}
+
+.linklist li a {
+  padding-right: 0.25em;
+}
+
+div.post.bg1,
+div.post.bg2,
+div.post.bg3 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+#tabs ul li a {
+  padding: 0;
+  margin: 0 0.2em;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+#tabs a span {}
+/*sizetwo*/
+/*[[sizetwo]]*/

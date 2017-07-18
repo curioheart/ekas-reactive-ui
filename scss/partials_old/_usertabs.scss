@@ -1,0 +1,27 @@
+/* UI: Usertabs */
+#userpagetabs > ul > .ui-state-default {
+  border-radius: 0.25em 0.25em 0 0 !important;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  /* lov */
+}
+
+#userpagetabs ul {
+  padding: 0;
+  width: 90% !important;
+}
+
+.blacklist-overlay,
+div a.thumb img {
+  border-radius: 4px;
+}
+
+#userpagetabs ul li a {}
+
+.g-box-footer {
+  background: white;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: none;
+}

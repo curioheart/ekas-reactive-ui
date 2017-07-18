@@ -1,0 +1,10 @@
+// smaller than a netbook; likely an old monitor/laptop
+@import 'media.d/small';
+// netbooks
+@media(min-width: 1025px) {
+  @import 'media.d/netbook';
+}
+// normal displays (laptop/desktop)
+@media(min-width: 1440px) {
+  @import 'media.d/full';
+}

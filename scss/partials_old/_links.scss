@@ -1,0 +1,50 @@
+/* LINKS */
+a {
+  color: #7F50CF;
+}
+
+a:hover {
+  color: #470047 !important;
+}
+
+#userpagetabs a,
+.g-box-footer a,
+.topic-title > a,
+a[href*="/g4/user"] {
+  color: #7F50CF;
+}
+
+.g-box-header a {
+  color: white !important;
+}
+
+#userpagetabs a:hover,
+.g-box-footer a:hover,
+.g-box-header a:hover,
+.topic-title > a:hover,
+a[href*="/g4/user"]:hover {
+  color: #470047;
+}
+
+#welcome-msg-block a {
+  color: white !important;
+}
+
+#welcome-msg-block a:hover {
+  color: #C0C0FF !important;
+}
+
+#messageform a,
+.g-box-header a {
+  color: white;
+}
+
+#g-footer a:hover,
+#messageform a:hover,
+.g-box-header a:hover {
+  color: #C0C0FF !important;
+}
+
+#globalheader a:hover {
+  color: #C0C0FF !important;
+}

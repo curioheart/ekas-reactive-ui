@@ -1,0 +1,59 @@
+.blacklist-overlay {
+  background-image: url("http://i.imgur.com/LtQZZUg.png");
+}
+
+a.thumb.scrollthumb {
+  border-radius: 4px;
+}
+
+#login-block {
+  background-color: #7F50CF;
+  border-radius: 0.25em;
+  position: fixed;
+  overflow: visible !important;
+  min-height: 1px !important;
+  z-index: 3;
+  padding: 1em;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -1.25em;
+}
+
+#userpagetabs ul li {
+  top: 2px;
+}
+
+#userpagetabs li:hover {
+  background: rgb(240, 240, 240);
+}
+
+.headerbar {}
+
+.shout-bubble-arrow,
+.shout-bubble-arrow-border {
+  display: none;
+}
+
+.new-shout,
+.shout-reply {
+  background: none;
+  border: none;
+}
+
+.odd .new-shout {
+  margin: 0 0 0 120px;
+}
+
+a[style="float:right; text-align: left; width: 100px;"] {
+  float: left !important;
+}
+
+a[style="float:right; text-align: left; width: 100px;"] img {
+  float: right !important;
+}
+
+#sized-note {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  font-weight: normal;
+}

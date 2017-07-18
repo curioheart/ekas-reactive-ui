@@ -1,0 +1,19 @@
+// Colors
+$primary-color: #7F50CF !default;
+$secondary-color: #C0C0FF !default;
+$tertiary-color: #536482 !default;
+$quaternary-color: #f4ebf5 !default;
+
+// Monochrome colors
+$black: black !default;
+$white: white !default;
+$near-white: darken($white, 2.5%) !default;
+$off-white: darken($white, 15%) !default;
+$light-gray: darken($white, 25%) !default;
+$gray: darken($white, 50%) !default;
+$dark-gray: lighten($black, 25%) !default;
+$darker-grey: lighten($black, 15%) !default;
+$near-black: lighten($black, 5%) !default;
+
+// Font colors
+$base-font-color: $black !default;

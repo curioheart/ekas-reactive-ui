@@ -1,0 +1,515 @@
+/** Base file for Eka's Responsive UI
+ * Based on Foxygrandpa's Unified UI
+ * Original CSS (c) 2017 Foxygrandpa under the Creative Commons Attributions (CC-BY) license
+ * Modifications (c) 2017 Curio Heart (CurioHeart) under the same license
+ */
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+@import url("https://fonts.googleapis.com/css?family=Nova+Flat");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+#wrap {
+  padding: 0 !important;
+}
+
+#wrap #page-body {
+  margin: 1.5em;
+}
+
+.topic-title > a {
+  color: #7F50CF;
+}
+
+.topic-title > a:hover {
+  color: #470047;
+}
+
+.forum-topic {
+  border-bottom: 0;
+  margin-bottom: 1em;
+}
+
+/* Anything related to the gallery */
+.comment {
+  border-top: none !important;
+  border: none;
+  padding: 0.5em !important;
+  margin-top: 0.5em !important;
+  background: white;
+}
+
+#item-itself {
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+}
+
+.gallery-item .g-small span {
+  display: block;
+}
+
+.item-title {
+  /* this fixes the text. it's ugly and kind of awkward. sorry */
+  margin: 0 auto;
+  max-width: 160px;
+  width: 180px;
+  height: 21px;
+  max-height: 42px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.detail-item {
+  border: 0 transparent;
+  margin-bottom: 1em;
+}
+
+#gallery-items {
+  margin-top: 2em;
+}
+
+/* Gallery Items */
+a.thumb.scrollthumb {
+  border-radius: 4px;
+}
+
+.scrollthumb,
+.thumb > img,
+img[style*="max-height:300px"] {
+  border-bottom: 2px rgba(0, 0, 0, 0.3) solid;
+  border-radius: 0.25em !important;
+}
+
+a.scrollthumb {
+  display: block;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+}
+
+@namespace url(http://www.w3.org/1999/xhtml);
+/* Blacklisted */
+.blacklist-overlay {
+  background-image: url("http://i.imgur.com/LtQZZUg.png");
+}
+
+.blacklist-overlay,
+div a.thumb img {
+  border-radius: 4px;
+}
+
+#footer,
+#g-footer {
+  margin: 0 auto;
+  border-radius: 0.25em !important;
+  margin-bottom: 1em;
+  width: 30%;
+  margin-top: 0.5em;
+}
+
+#globalheader {
+  background-color: #7F50CF;
+  font-family: "Arima Madurai", cursive !important;
+  font-size: 0.8em !important;
+  height: 25px !important;
+  margin: 0 0 1em;
+  padding-top: 0.5em;
+  overflow: visible !important;
+}
+
+#globalheader a:hover {
+  color: #C0C0FF !important;
+}
+
+#globalheader #usercenter {
+  float: left;
+  margin-left: 0;
+}
+
+#globalheader #usercenter #userdata {
+  background: none;
+  font-weight: normal !important;
+  box-shadow: none;
+  /* blend it in with the ui bar */
+  margin: 0;
+  padding: 5px 0 0 8px;
+}
+
+#globalheader #usercenter #userdata a {
+  width: 5em;
+}
+
+#globalheader #usercenter p {
+  float: left;
+}
+
+#globalheader #usercenter p:first-child {
+  margin-right: 1em;
+}
+
+#globalheader #usercenter p:last-child {
+  margin-left: 1em;
+}
+
+#globalheader #usercenter img {
+  display: none;
+}
+
+#globalheader #accentbar {
+  float: left;
+  height: 0 !important;
+  overflow: visible;
+  width: 100%;
+}
+
+#globalheader #accentbar #menucontainercontainer {
+  background-color: transparent;
+  float: left;
+  margin: 0 auto;
+  width: 30em;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu {
+  background-color: transparent;
+  color: #7F50CF;
+  width: inherit;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul {
+  font-weight: normal !important;
+  height: 32px;
+  line-height: 32px;
+  padding-top: 0;
+  width: 400px;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li a, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li a, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li a {
+  color: #C0C0FF;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li a:visited, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li a:visited, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li a:visited {
+  color: #C0C0FF;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul {
+  background-color: white !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.11) !important;
+  border: 1px outset rgba(0, 0, 0, 0.09);
+  border-top: 1px solid #7F50CF !important;
+  border-radius: 0 0 0.25em 0.25em;
+  overflow: hidden;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul li, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul li, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul li {
+  background-color: white;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul li a, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul li a, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul li a {
+  color: #C0C0FF !important;
+  font-weight: normal;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul li a:visited, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul li a:visited, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul li a:visited {
+  color: #C0C0FF;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul li a:hover, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul li a:hover, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+#globalheader #accentbar #menucontainercontainer #menucontainer ul li ul li .expanded > a, #globalheader #accentbar #menucontainercontainer #page-header .headerbar .inner #chromemenu ul li ul li .expanded > a, #page-header .headerbar .inner #globalheader #accentbar #menucontainercontainer #chromemenu ul li ul li .expanded > a {
+  background: #7F50CF !important;
+}
+
+#globalheader #accentbar #sitelogo {
+  display: none;
+}
+
+#page-header {
+  font-family: "Arima Madurai", cursive !important;
+  font-size: 0.8em !important;
+  height: 0px !important;
+  margin: 0 0 1em;
+  padding-top: 0;
+  overflow: visible !important;
+}
+
+#page-header .headerbar {
+  background-color: #7F50CF;
+  background-image: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  height: 25px;
+}
+
+#page-header .headerbar .inner {
+  color: #C0C0FF;
+  height: inherit;
+}
+
+#page-header .headerbar .inner #headertop {
+  display: none;
+}
+
+#page-header .headerbar .inner #headerleft a {
+  color: #C0C0FF;
+}
+
+#page-header .headerbar .inner #headerleft a:visited {
+  color: #C0C0FF;
+}
+
+#page-header .headerbar .inner #chromemenu ul {
+  padding: 0;
+}
+
+#page-header .headerbar .inner #chromemenu a {
+  color: #C0C0FF;
+  padding-top: 0;
+}
+
+#page-header .headerbar .inner #chromemenu a:visited {
+  color: #C0C0FF;
+}
+
+#page-header .headerbar .inner .corners-top,
+#page-header .headerbar .inner .corners-top span,
+#page-header .headerbar .inner .corners-bottom,
+#page-header .headerbar .inner .corners-bottom span {
+  background: #7F50CF;
+}
+
+#page-header a:hover {
+  color: #C0C0FF !important;
+}
+
+/* Login */
+#login-block {
+  background-color: #7F50CF;
+  border-radius: .25em;
+  position: fixed;
+  overflow: visible !important;
+  min-height: 1px !important;
+  z-index: 3;
+  padding: 1em;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -1.25em;
+}
+
+html[lang] {
+  /*by specifying the lang attribute we exclude site-hosted stories! yay no more bugs with this */
+  /*this has a background?*/
+  background: #f4ebf5;
+  /* #C0C0FF; OLD SKOOL */
+}
+
+body {
+  margin: 0 !important;
+  width: calc(100% - 16px);
+  width: 100%;
+  /* i think its a reasonable enough minimum, who even owns 1024x768 displays anymore!?*/
+  margin-left: 8px;
+  box-shadow: none;
+  font-family: Oxygen, sans-serif !important;
+  font-size: 14px !important;
+  /* Fix font variation */
+  background: #f4ebf5;
+  /*background: url("http://i.imgur.com/o0H4KPl.png");*/
+  /*Uncomment to fix background*/
+}
+
+body#phpbb {
+  margin: 0;
+  padding-top: 0;
+}
+
+body[dir*="LTR"] {
+  background: white !important;
+}
+
+/* Sized Note */
+#sized-note {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  font-weight: normal;
+}
+
+#ss-viewport .g-box {
+  box-shadow: none !important;
+}
+
+input[type="button"] {
+  border: 0;
+  border-radius: 0.25em;
+  border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+#messageform a {
+  color: white;
+}
+
+#messageform a:hover {
+  color: #C0C0FF !important;
+}
+
+/* What is this even targetting? */
+a[style="float: right; text-align: left; width: 100px;"] {
+  float: left !important;
+}
+
+a[style="float: right; text-align: left; width: 100px;"] img {
+  float: right !important;
+}
+
+#welcome-msg-block a {
+  color: white !important;
+}
+
+#welcome-msg-block a:hover {
+  color: #C0C0FF !important;
+}
+
+/* USERPAGE */
+#right-column {
+  float: right !important;
+}
+
+#left-column > .g-box,
+#right-column > .g-box {
+  margin: 1em 0 !important;
+  width: 100% !important;
+}
+
+#left-column {
+  margin: 0 !important;
+  width: 49% !important;
+  min-width: 49%;
+}
+
+#left-column {
+  margin-top: 1em;
+  width: 40% !important;
+  margin-left: calc(10% - .5em);
+  margin-right: 0.5em;
+}
+
+.preview > img {
+  border-radius: 0.25em !important;
+}
+
+#content > .section {
+  margin-left: calc(200px + 3em);
+  padding-left: 1em !important;
+  padding-top: 1em !important;
+}
+
+#content > .section {
+  margin-right: 0;
+}
+
+#content > .section,
+#ss-scroll > div,
+.region {
+  margin: 0.5em;
+  border-radius: 0.25em !important;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09) !important;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1em;
+}
+
+.region {
+  width: 200px;
+  margin-left: 0;
+  font-family: Verdana, Arial !important;
+}
+
+.g-box-footer a,
+a[href*="/g4/user"] {
+  color: #7F50CF;
+}
+
+.g-box-header a {
+  color: white !important;
+}
+
+.g-box-footer a:hover,
+.g-box-header a:hover {
+  color: #470047;
+}
+
+.g-box-header a:hover {
+  color: #C0C0FF !important;
+}
+
+.g-box-header a {
+  color: white;
+}
+
+.g-box-header a:hover {
+  color: #C0C0FF !important;
+}
+
+.g-box-footer {
+  background: white;
+}
+
+#latest > .g-box-contents {
+  max-height: calc(100px + .5em);
+}
+
+#latest .thumb {
+  margin-bottom: 1em !important;
+}
+
+/* Shoutbox styling */
+.shout-bubble-arrow-border, .shout-bubble-arrow {
+  display: none;
+}
+
+.new-shout, .shout-reply {
+  background: none;
+  border: none;
+}
+
+.odd .new-shout {
+  margin: 0px 0px 0px 120px;
+}
+
+/* Tabs on the user page */
+#userpagetabs > ul > .ui-state-default {
+  border-radius: 0.25em 0.25em 0 0 !important;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  /* lov */
+}
+
+#userpagetabs ul {
+  padding: 0;
+  width: 90% !important;
+}
+
+#userpagetabs ul li {
+  top: 2px;
+}
+
+#userpagetabs li:hover {
+  background: #f0f0f0;
+}
+
+#userpagetabs a {
+  color: #7F50CF;
+}
+
+#userpagetabs a:hover {
+  color: #470047;
+}
+
+#userpagetabs > ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#userpagetabs {
+  margin: 0 0 -.5em;
+  padding-right: 0;
+}
